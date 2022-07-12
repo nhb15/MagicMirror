@@ -15,6 +15,9 @@ if (process.env.ELECTRON_DISABLE_GPU !== undefined) {
 }
 app.commandLine.appendSwitch("disable-gpu");
 app.commandLine.appendArgument("disable-gpu");
+
+app.commandLine.appendSwitch("headless");
+app.commandLine.appendArgument("headless");
 // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow;
 
