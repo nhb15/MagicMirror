@@ -13,7 +13,8 @@ const app = electron.app;
 if (process.env.ELECTRON_DISABLE_GPU !== undefined) {
 	app.disableHardwareAcceleration();
 }
-
+app.commandLine.appendSwitch("disable-gpu");
+app.commandLine.appendArgument("disable-gpu");
 // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow;
 
