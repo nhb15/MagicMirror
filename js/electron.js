@@ -14,8 +14,6 @@ if (process.env.ELECTRON_DISABLE_GPU !== undefined) {
 	app.disableHardwareAcceleration();
 }
 
-app.disableHardwareAcceleration();
-
 // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow;
 
