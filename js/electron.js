@@ -18,6 +18,11 @@ app.commandLine.appendArgument("disable-gpu");
 
 app.commandLine.appendSwitch("headless");
 app.commandLine.appendArgument("headless");
+
+app.commandLine.appendSwitch("disable-software-rasterizer");
+app.commandLine.appendArgument("disable-software-rasterizer");
+
+app.commandLine.appendSwitch("force_high_performance_gpu");
 // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow;
 
