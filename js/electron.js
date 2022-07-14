@@ -23,6 +23,9 @@ app.commandLine.appendSwitch("disable-software-rasterizer");
 app.commandLine.appendArgument("disable-software-rasterizer");
 
 app.commandLine.appendSwitch("force_high_performance_gpu");
+
+app.commandLine.appendSwitch("no-sandbox");
+app.commandLine.appendArgument("no-sandbox");
 // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow;
 
