@@ -27,7 +27,7 @@ app.commandLine.appendArgument("disable-gpu");
 app.commandLine.appendSwitch("no-sandbox");
 app.commandLine.appendArgument("no-sandbox");
 
-app.setPath("webdriver.chrome.driver", "/usr/bin/chromedriver");
+// app.setPath("webdriver.chrome.driver", "/usr/bin/chromedriver");
 // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow;
 
