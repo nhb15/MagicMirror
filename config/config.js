@@ -63,11 +63,6 @@ let config = {
 			}
 		},
 		{
-			module: "smallcat",
-			header: "Can you see the furr?",
-			position: "middle_center"
-		},
-		{
 			module: 'MMM-Remote-Control'
 		},
 		{
