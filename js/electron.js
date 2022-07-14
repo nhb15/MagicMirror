@@ -24,8 +24,8 @@ app.commandLine.appendArgument("disable-gpu");
 
 // app.commandLine.appendSwitch("force_high_performance_gpu");
 //
-// app.commandLine.appendSwitch("no-sandbox");
-// app.commandLine.appendArgument("no-sandbox");
+app.commandLine.appendSwitch("no-sandbox");
+app.commandLine.appendArgument("no-sandbox");
 // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow;
 
